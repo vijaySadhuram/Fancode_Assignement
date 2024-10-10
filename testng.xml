@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API Automation Suite">
+    <test name="Test Scenario for FanCode City Users">
+        <classes>
+            <class name="testcases.UserTaskCompletionTest"/>
+             <class name="testcases.TodosAPITest"/>
+              <class name="testcases.UserApiTest"/>
+            
+        </classes>
+    </test>
+    
+</suite>
